@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+    font-family: "Robot Condensed",sans-serif;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.screen{
+    margin: 0;
+    background-color: #cfcfcf;
+    color: blue;
+    font-size: 64px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.screen span{
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    margin: 10px -5px 0;
+}
+
+.buttons button{
+    flex: 1;
+    margin: 0 5px;
+
+}
